@@ -1,0 +1,12 @@
+name: RiseVoid
+version: '1.0'
+main: com.voidrise.RiseVoid
+api-version: '1.20'
+commands:
+  station:
+    description: Modül Üssüne ışınlanma komutu
+    usage: /station go
+permissions:
+  risevoid.station:
+    description: Modül Üssü komutunu kullanma izni
+    default: true
